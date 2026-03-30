@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 
 import { Container, Button } from "react-bootstrap";
@@ -30,7 +31,7 @@ const Hero = () => {
                 <span className="text-secondary">Magic of Camiguin</span>
               </h1>
               <p className="lead text-white opacity-90 mb-5 fs-4 fw-light">
-                Discover the "Island Born of Fire" — a paradise of pristine beaches, 
+                Discover the &quot;Island Born of Fire&quot; — a paradise of pristine beaches, 
                 seven volcanoes, and mystical springs.
               </p>
               <Button as={Link as any} href="/search" variant="secondary" size="lg" className="px-5 py-3 rounded-full shadow-lg">
