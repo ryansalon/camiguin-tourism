@@ -33,7 +33,7 @@ const Hero = () => {
                 Discover the "Island Born of Fire" — a paradise of pristine beaches, 
                 seven volcanoes, and mystical springs.
               </p>
-              <Button as={Link} href="/search" variant="secondary" size="lg" className="px-5 py-3 rounded-full shadow-lg">
+              <Button as={Link as any} href="/search" variant="secondary" size="lg" className="px-5 py-3 rounded-full shadow-lg">
                 Explore Destinations
               </Button>
             </motion.div>

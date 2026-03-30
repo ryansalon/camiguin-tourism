@@ -34,7 +34,7 @@ export default function DestinationDetail() {
         <div className="py-5">
           <h2 className="display-4 fw-bold mb-4">Destination not found</h2>
           <p className="text-muted mb-5">The place you are looking for might have been moved or renamed.</p>
-          <Button as={Link} href="/search" variant="primary" className="rounded-full px-5">Back to Destinations</Button>
+          <Button as={Link as any} href="/search" variant="primary" className="rounded-full px-5">Back to Destinations</Button>
         </div>
       </Container>
     );

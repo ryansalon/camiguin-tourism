@@ -64,7 +64,7 @@ const AppNavbar = () => {
       className={`transition-all duration-500 py-3 ${scrolled ? 'glass-nav shadow-sm py-2' : 'bg-transparent'}`}
     >
       <Container>
-        <Navbar.Brand as={Link} href="/" className="d-flex align-items-center gap-2">
+        <Navbar.Brand as={Link as any} href="/" className="d-flex align-items-center gap-2">
           <motion.div 
             className={`d-flex align-items-center justify-content-center rounded-circle p-2 shadow-sm ${getIconBgClass()}`}
             whileHover={{ rotate: 360 }}
@@ -95,7 +95,7 @@ const AppNavbar = () => {
               const isActive = pathname === link.href;
               return (
                 <Nav.Link 
-                  as={Link}
+                  as={Link as any}
                   key={link.href}
                   href={link.href} 
                   className={`position-relative px-3 fw-bold transition-all ${getTextColorClass(isActive)}`}

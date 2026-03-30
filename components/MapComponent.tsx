@@ -199,7 +199,7 @@ export default function MapComponent({ center, zoom, destinations, selectedId, u
              </div>
           </div>
           
-          <Button as={Link} href={`/destination/${selectedDest.id}`} variant="secondary" className="w-100 rounded-full py-2 fw-bold d-flex align-items-center justify-content-center gap-2">
+          <Button as={Link as any} href={`/destination/${selectedDest.id}`} variant="secondary" className="w-100 rounded-full py-2 fw-bold d-flex align-items-center justify-content-center gap-2">
              View Full Details <FaChevronRight size={12} />
           </Button>
         </div>

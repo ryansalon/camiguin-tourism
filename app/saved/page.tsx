@@ -63,7 +63,7 @@ export default function SavedPage() {
                       <Card.Text className="text-muted small mb-3">
                           <FaMapMarkerAlt className="me-1" /> {dest.address}
                       </Card.Text>
-                      <Button as={Link} href={`/destination/${dest.id}`} variant="outline-primary" className="w-100 fw-bold border-2">View Details</Button>
+                      <Button as={Link as any} href={`/destination/${dest.id}`} variant="outline-primary" className="w-100 fw-bold border-2">View Details</Button>
                   </Card.Body>
                 </Card>
               </motion.div>
@@ -75,7 +75,7 @@ export default function SavedPage() {
             <FaSadTear size={50} className="text-muted mb-3" />
             <h3>No saved destinations yet</h3>
             <p className="text-muted">Start exploring and save your favorite spots!</p>
-            <Button as={Link} href="/search" variant="primary" className="mt-2">Find Places</Button>
+            <Button as={Link as any} href="/search" variant="primary" className="mt-2">Find Places</Button>
         </div>
       )}
     </Container>

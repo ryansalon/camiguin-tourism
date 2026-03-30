@@ -80,7 +80,7 @@ export default function SearchPage() {
                     <Card.Text className="text-muted mb-4 text-truncate">
                         {dest.description}
                     </Card.Text>
-                    <Button as={Link} href={`/destination/${dest.id}`} variant="outline-primary" className="w-100 fw-bold border-2">View Details</Button>
+                    <Button as={Link as any} href={`/destination/${dest.id}`} variant="outline-primary" className="w-100 fw-bold border-2">View Details</Button>
                 </Card.Body>
                 </Card>
             </Col>
