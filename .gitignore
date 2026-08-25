@@ -14,8 +14,13 @@
 /coverage
 
 # next.js
-/.next/
+.next/
 /out/
+
+# dev logs
+dev.log
+dev_err.log
+*.log
 
 # production
 /build
